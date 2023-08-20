@@ -1,0 +1,63 @@
+<html>
+<head>
+      <link rel="stylesheet" href="form_style.css">
+      <title>form</title>
+      
+     
+     
+      </head>
+      
+  <body>
+  <h2 align=center >
+   Payment Form</h2> <hr>
+   <h3> User information :-- </h3> 
+   Name:
+   <input Class="data" type=text  placeholder ="Enter your name">
+   Password:
+   <input Class="data" type =password placeholder="Password">
+   
+ <fieldset>
+  <legend>Gender</legend>
+  <label for=1st>
+    <input type=radio name=gender value=male id=1st>Male  
+    </lable>
+  <label for=2nd>
+    <input type=radio name=gender value=female id=2nd>Female
+    </lable>
+   </fieldset><br>
+   
+   Address :<br>
+   <input id=add type=text name="address"
+   Placeholder="Enter your address"><br>
+   Gmail :<br>
+   <input id=add type=text name=gmail placeholder="abc@gmil.com"><br>
+   Pincode : <br>
+   <input id=add type=text name=pincode placeholder="123456"><br>
+   <h3> Payment information :-- </h3> 
+   Card type :<br>
+  <select id=add>
+   <option>-select card type-
+   <option>Rupay
+   <option>Visa
+   <option>Mastercard
+  </select>
+  <br>
+  Card Number :<br>
+  <input id=add type=text placeholder="1111-2222-3333-4444"><br>
+  Expire date :<br>
+  <input type=date name=date  ID=add> 
+  <br>
+  CVV: <br>
+  <input type=text id=add placeholder=123>
+  
+  
+  <button class="reset" type=reset onClick="thanks"  value="Reset">Reset</button>
+  <button   class="submit">Pay Now</button>
+  
+  <script>
+  <!-- document.getElementsByClassName("submit")-->
+   alert('Pay your bill now   : } ');
+  </script>
+  
+   </body>
+   </html>
