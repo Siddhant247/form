@@ -1,0 +1,95 @@
+body{
+    margin:15px;
+    padding:12px;
+    background:linear-gradient(to right, lavender,#95c8d8);
+}
+h2{
+    background-color:#FFA597;
+    font-family:Arial;
+    color: lavender;
+    padding:10px;
+   border-radius:100%;
+   text-shadow: 2px 1px 2px black;
+   box-shadow:6px 5px 8px black ;
+   letter-spacing:2px;
+
+}
+.data{
+    width:100%;
+    margin:8px;
+    padding:10px;
+    border:none;
+    border-radius:3px;
+   box-shadow:1px 3px 9px black;
+}
+fieldset{
+ 
+    border-radius:5px;
+    width:98.5%;
+    height:50px;
+    border:none;
+    border-radius:3px;
+    box-shadow:1px 3px 9px black;
+    padding:0px 0px 20px 20px;
+    margin:5px;
+}
+#add{
+    padding:10px;
+    width:100%;
+    margin:10px;
+    border:none;
+    border-radius:3px;
+    box-shadow:2px 3px 9px black;
+    
+    
+}
+.submit{
+    height:50px;
+    font-size:20px;
+    background-color:#4daea1;
+    width:100%;
+    border:none;
+    border-radius:30px; 
+    transition: 5s,ease- in ;  
+}
+
+
+
+
+input[placeholder]{
+    text-shadow:1px 1px 1px silver;
+    font-family: Courier New;
+}
+
+h3{
+    letter-spacing:1.5px;
+    
+     text-shadow:1px 1px 3px white;
+   
+    
+}
+.reset{
+    background-color:#4daea1;
+    padding:5px;
+    border-radius:50px;
+    width:100%;
+    border: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
+}
+
+.submit:hover{
+    background-color:#4caf84;
+    margin: 2px;
+    transition: ease-in 5ms all;
+    box-shadow: 0 0 10px black;
+    
+}
+
+.reset:hover{
+   color:white;
+   background-color: black;
+   border:1px solid red;
+}
+    
