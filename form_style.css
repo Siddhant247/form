@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Black+Ops+One&family=Bodoni+Moda:opsz@6..96&family=Caprasimo&family=Libre+Bodoni&family=Playfair+Display&display=swap');
 body{
     margin:15px;
     padding:12px;
@@ -5,13 +6,15 @@ body{
 }
 h2{
     background-color:#FFA597;
-    font-family: Black Ops One;
-    color: lavender;
+    font-family: Abril Fatface;
+    color: rgb(141, 132, 236);
     padding:10px;
-   border-radius:100%;
-   text-shadow: 2px 1px 2px black;
-   box-shadow:6px 5px 8px black ;
-   letter-spacing:2px;
+   border-radius: 20%;
+   text-shadow: 1px 1px 0px rgb(246, 237, 237);
+   border: 3px solid black;
+   box-shadow: 10px 8px 0px black ;
+   letter-spacing: 3px;
+   word-spacing: 10px;
 
 }
 .data{
